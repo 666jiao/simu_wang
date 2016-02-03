@@ -27,12 +27,17 @@
 
 
 		$(".main>a").next("ul").eq(0).css("display","block");
+		$(".ksd").eq(0).css({"background-color":"#fee1dd","color":"#ff5c44"});
         $(".main>a").eq(0).css("background-image","url('images/nav_sh.png')");        
         $(".main>a").click(function(){
             $(this).next("ul").stop().slideToggle();
             $(this).parent().siblings().find('ul').slideUp();
             $(this).parent().siblings().find('.ksd').css("background-image","url('images/nav_xh.png')");
             fa($('.ksd',this));
+            if($(this).next('ul').display="block"){
+	        	$('.ksd',this).css({"background-color":"#fee1dd","color":"#ff5c44"});
+	        	$(this).parent().siblings().find('.ksd').css({"background-color":"#fff","color":"#bc93a5"});
+	        }
         });
 		
 	}); 
@@ -55,14 +60,14 @@
 			<div class="system left"></div>
 			<div class="right nav-right">
 				<ul class="clear nav-ul">
-					<li class="right">
+					<li class="right foz-15">
 						<a href="javascript:;" class="color-hui" style="padding-right: 0;">登录</a>
 						<a href="javascript:;" class="color-hui">注册</a>
 					</li>
-					<li class="right"><a href="javascript:;" class="color-hui">加入我们</a>|</li>
-					<li class="right"><a href="javascript:;" class="color-red">产品系列</a>|</li>
-					<li class="right"><a href="javascript:;" class="color-hui">关于我们</a>|</li>
-					<li class="right"><a href="javascript:;" class="color-hui">首页</a>|</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-hui">加入我们</a>|</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-red">产品系列</a>|</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-hui">关于我们</a>|</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-hui">首页</a>|</li>
 				</ul>
 			</div>
 		</div>
@@ -201,7 +206,7 @@
 	</div>
 </div> 
 <div class="footer">
-	<!-- <p class="color-anhui">2014,淡水泉(北京)投资管理有限公司 客服热线：400-818-7776 京公网安备110102001447 京ICP备07031271号-1 </p> -->
+	<!-- <p class="color-anhui">©2014,淡水泉(北京)投资管理有限公司 客服热线：400-818-7776 京公网安备110102001447 京ICP备07031271号-1 </p> -->
 </div>
 </body>
 </html>

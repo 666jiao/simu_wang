@@ -19,6 +19,20 @@
 .color-anhui{color: #585856;}
 .color-white{color: #fff;}
 .color-shuihong{color: #bc93a5;}
+.color-anhong{color: #ff7358;}
+
+.foz-13{font-size: 13px;}
+.foz-14{font-size: 14px;}
+.foz-15{font-size: 15px;}
+.foz-16{font-size: 16px;}
+.foz-17{font-size: 17px;}
+.foz-18{font-size: 18px;}
+.foz-19{font-size: 19px;}
+.foz-20{font-size: 20px;}
+.foz-21{font-size: 21px;}
+.foz-22{font-size: 22px;}
+.foz-23{font-size: 23px;}
+
 
 
 .mar-top-ten{margin-top: 10px;}
@@ -89,6 +103,11 @@ html,body{height: 100%;}
 	text-align: center;
 	line-height: 100px;
 } 
+
+.beiyin{
+	background-color: #fff;
+	box-shadow: 0 0px 9px #E5DADA;
+}
 
 .top-div{
 	padding: 0 50px;
@@ -466,11 +485,11 @@ html,body{height: 100%;}
 	background-color: #fee1dd;		
 }
 
-.sidebar_ld:hover{
+/*.sidebar_ld:hover{
 	background-color: #fee1dd;
 	color: #ff5c44;	
 }
-
+*/
 .slideToggle:hover .sharp{
 	background-image: url(../images/nav_sx.png);
 }
@@ -489,6 +508,10 @@ html,body{height: 100%;}
 
 .sidebar_ul{
 	display: none;
+}
+
+.sidebar_ul li:hover{
+	background-color: #EBE2EB;
 }
 
 .fengexian{
@@ -580,4 +603,12 @@ html,body{height: 100%;}
 	white-space:nowrap; 
 	overflow:hidden; 
 	text-overflow:ellipsis;
+}
+
+
+.you_jtou{
+	line-height: 91px;
+	background-image: url(../images/jian_1.png);
+	background-repeat: no-repeat;
+	background-position: center right;
 }
