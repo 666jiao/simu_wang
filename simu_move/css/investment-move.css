@@ -97,6 +97,17 @@ html,body{height: 100%;}
 
 .text-center{text-align: center;}
 
+
+.touming_c{
+	width: 100%; 
+	min-height:100%; 
+	background:#698269; 
+	position: absolute; 
+	top: 0; 
+	z-index: 1; 
+	opacity: .3;
+}
+
 .wrap_concent{
 	min-height: 100%;
 	margin: 0 auto;

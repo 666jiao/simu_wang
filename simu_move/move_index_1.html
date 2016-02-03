@@ -28,6 +28,12 @@ $(document).ready(function(){
 		$(".section").css({"padding-bottom":"100px"});
 	}; 
 }); 
+
+$(document).ready(function(){
+	$(".chac").click(function(){
+		$(".xish").fadeOut();
+	});
+});
 </script>
 </head>
 <body>
@@ -36,10 +42,10 @@ $(document).ready(function(){
 		<div class="rel pad-bottom-forty" style="z-index: 10;">
 			<div style="width: 0.6rem;height: 0.6rem;" class="pad-top-twenty pad-left-twenty">
 				<a href="javascript:;">
-					<img src="images/gb_03.png" alt="" style="width: 100%; height: 100%;">
+					<img src="images/gb_03.png" alt="" style="width: 100%; height: 100%;" class="chac xish">
 				</a>
 			</div>
-			<div class="content_uxin text-center">
+			<div class="content_uxin text-center xish">
 				<ul>
 					<li><a href="javascript:;" title="" class="color-white">首页</a></li>
 					<li><a href="javascript:;" title="" class="color-white">关于我们</a></li>
@@ -48,7 +54,7 @@ $(document).ready(function(){
 				</ul>
 			</div>
 		</div>
-		<div style="width: 100%; min-height:100%; background:#f0f; position: absolute; top: 0; z-index: 1; opacity: .3;">
+		<div style="" class="touming_c xish">
 			
 		</div>
    </div>
