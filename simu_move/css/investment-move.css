@@ -343,6 +343,10 @@ html,body{height: 100%;}
 	line-height: .7rem;
 }
 
+.zhengwen-concent td{
+	padding: 0 3px;
+}
+
 .zhengwen-concent td:first-of-type{
 	width: 50%;
 	border-right: 1px solid #fff;
