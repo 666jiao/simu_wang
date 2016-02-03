@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<link rel="stylesheet" href="css/on-investment.css">
+<link rel="stylesheet" href="css/swiper-3.3.0.min.css">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script src="js/swiper-3.3.0.jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	if($(".nv-body").height() > window.innerHeight - 100){
+		$(".section").css({"padding-bottom":"100px"});
+	};
+
+
+
+	var mySwiper = new Swiper('.swiper-container',{
+	    loop: true,
+		autoplay: 3000,
+
+		// 如果需要前进后退按钮
+	    nextButton: '.swiper-button-next',
+	    prevButton: '.swiper-button-prev',
+	});
+
+
+	$(".main>a").next("ul").eq(0).css("display","block");
+    $(".main>a").eq(0).css("background-image","url('images/nav_sh.png')");        
+    $(".main>a").click(function(){
+        $(this).next("ul").stop().slideToggle();
+        $(this).parent().siblings().find('ul').slideUp();
+        $(this).parent().siblings().find('.ksd').css("background-image","url('images/nav_xh.png')");
+        fa($('.ksd',this));
+    });
+	
+}); 
+
+
+function fa(ht){
+    if(ht){
+        if(ht.css("background-image").indexOf("nav_sh.png")>=0){
+            ht.css("background-image","url('images/nav_xh.png')");
+        }else{
+            ht.css("background-image","url('images/nav_sh.png')");
+        }
+    }
+}
+</script>
+</head>
+<body>
+<div class="section" style="background-color: #f9fafe;"> 
+	<div class="nv-body">
+		<div class="clear top-div" style="background-color: #fff;box-shadow: 0 0px 9px #666;">
+			<div class="system left"></div>
+			<div class="right nav-right">
+				<ul class="clear nav-ul">
+					<li class="right">
+						<a href="javascript:;" class="color-hui" style="padding-right: 0;">登录</a>
+						<a href="javascript:;" class="color-hui">注册</a>
+					</li>
+					<li class="right"><a href="javascript:;" class="color-hui">加入我们</a>|</li>
+					<li class="right"><a href="javascript:;" class="color-red">产品系列</a>|</li>
+					<li class="right"><a href="javascript:;" class="color-hui">关于我们</a>|</li>
+					<li class="right"><a href="javascript:;" class="color-hui">首页</a>|</li>
+				</ul>
+			</div>
+		</div>
+
+
+
+		<div class="clear xiao_nei">
+			<div class="sidebar mar-right-forty left">
+				<div class="sidebar_fd">
+					<p>产品系列</p>
+					<p>invest-product</p>
+				</div>
+				<div>
+					<div class="main">
+						<a href="javascript:;" class="slideToggle"><div class="ksd sidebar_ld color-shuihong sharpy">精选投资产品系列</div></a>
+						<ul class="sidebar_ul slideToggle_zs">
+							<li class="sidebar_fdd color-hui">精选投资1号</li>
+							<li class="sidebar_fdd color-hui">精选投资2号</li>
+							<li class="sidebar_fdd color-hui">精选投资3号</li>
+						</ul>
+					</div>
+					<div class="main">
+						<a href="javascript:;" class="slideToggle"><div class="ksd sidebar_ld color-shuihong sharpz">明星投资系列</div></a>
+						<ul class="sidebar_ul slideToggle_zs">
+							<li class="sidebar_fdd color-hui">精选投资1号</li>
+							<li class="sidebar_fdd color-hui">精选投资2号</li>
+							<li class="sidebar_fdd color-hui">精选投资3号</li>
+						</ul>
+					</div>
+					<div class="main">
+						<a href="javascript:;" class="slideToggle"><div class="ksd sidebar_ld color-shuihong sharpz">高收益系列</div></a>
+						<ul class="sidebar_ul slideToggle_zs">
+							<li class="sidebar_fdd color-hui">精选投资1号</li>
+							<li class="sidebar_fdd color-hui">精选投资2号</li>
+							<li class="sidebar_fdd color-hui">精选投资3号</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="list_right left">
+				<div class="clear">
+					<h2 class="color-red pad-left-thirty pad-top-thirty pad-bottom-thirty left">精选投资1号</h2>
+					<a href="javascript:;"><div class="color-anhui right mar-right-thirty" style="line-height: 91px;">返回 →</div></a>
+				</div>
+				<div class="fengexian"></div>
+				<div class="clear mar-top-thirty mar-left-fifty" style="margin-bottom: 300px;">
+					<div class="xiazai_weni left mar-right-twenty mar-bottom-twenty">
+						<p class="color-anhui" style="margin:17px 0 20px 0;">精选投资1号净值报告1.PDF</p>
+						<span class="color-hui">20K</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="javascript:;" class="color-hui">点击下载</a>
+					</div>
+					<div class="xiazai_weni left mar-right-twenty mar-bottom-twenty">
+						<p class="color-anhui" style="margin:17px 0 20px 0;">精选投资1号净值报告1.PDF</p>
+						<span class="color-hui">20K</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="javascript:;" class="color-hui">点击下载</a>
+					</div>
+					<div class="xiazai_weni left mar-right-twenty mar-bottom-twenty">
+						<p class="color-anhui" style="margin:17px 0 20px 0;">精选投资1号净值报告1.PDF</p>
+						<span class="color-hui">20K</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="javascript:;" class="color-hui">点击下载</a>
+					</div>
+					<div class="xiazai_weni left mar-right-twenty mar-bottom-twenty">
+						<p class="color-anhui" style="margin:17px 0 20px 0;">精选投资1号净值报告1.PDF</p>
+						<span class="color-hui">20K</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="javascript:;" class="color-hui">点击下载</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		
+
+		
+
+	</div>
+</div> 
+<div class="footer">
+	<!-- <p class="color-anhui">2014,淡水泉(北京)投资管理有限公司 客服热线：400-818-7776 京公网安备110102001447 京ICP备07031271号-1 </p> -->
+</div>
+</body>
+</html>

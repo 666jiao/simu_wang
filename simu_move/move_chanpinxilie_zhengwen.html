@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/investment-move.css">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>		
+<script type="text/javascript">
+new function(){
+   var _self = this;
+   _self.width = 640;//设置默认最大宽度
+   _self.fontSize = 100;//默认字体大小
+   _self.widthProportion = function(){
+   	var p = (document.body&&document.body.clientWidthdocument.getElementsByTagName("html")[0].offsetWidth)/_self.width;return p>1?1:p<0.5?0.5:p;};
+   _self.changePage = function(){
+       document.getElementsByTagName("html")[0].setAttribute("style","font-size:"+_self.widthProportion()*_self.fontSize+"px !important");
+   }
+   _self.changePage();
+   window.addEventListener("resize",function(){_self.changePage();},false);
+};
+console.log(this===window);
+</script>
+</head>
+<body>
+<div class="wrap body-background">
+   <div style="" class="wrap_conce">
+		<div class="clear index_top">
+			<a href="javascript:;">
+				<div class="top-leftd left color-hui">
+					<!-- <img src="images/说明_03.png" alt="" width="100%" height="100%"> -->
+					返回
+				</div>
+			</a>
+			<p class="index_pl">正文页</p>
+		</div>
+
+		<!-- <div style="border-top: 1px solid #9A9A9A;"></div> -->
+		<div class="chanpin_xilie pad-bottom-ten" style="border: 0;">
+			<table>
+				<tbody>
+					<tr>
+						<td class="text-center color-anhui chanpin_xiant chanpin_xiantde"><a href="javascript:;" title="" class="color-blue">基本资料</a></td>
+						<td class="text-center color-anhui chanpin_xiant"><a href="javascript:;" title="" class="color-anhui">基金净值</a></td>
+						<td class="text-center color-anhui chanpin_xiant"><a href="javascript:;" title="" class="color-anhui">基金走势</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="zhengwen-concent">
+			<table class="collapse color-anhui">
+				<tbody>
+					<tr>
+						<td>发行规模</td>
+						<td>产品备案编码</td>
+					</tr>
+					<tr>
+						<td>-</td>
+						<td>S26930</td>
+					</tr>
+					<tr>
+						<td>投资标的</td>
+						<td>成立日期</td>
+					</tr>
+					<tr>
+						<td>债券型</td>
+						<td>15-11-20</td>
+					</tr>
+					<tr>
+						<td>产品形式</td>
+						<td>托管方</td>
+					</tr>
+					<tr>
+						<td>自主发行</td>
+						<td>招商证券股份有限公司</td>
+					</tr>
+					<tr>
+						<td>认购费率</td>
+						<td>赎买费率</td>
+					</tr>
+					<tr>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>管理费率</td>
+						<td>业绩分成</td>
+					</tr>
+					<tr>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>开放日</td>
+						<td>封闭期间</td>
+					</tr>
+					<tr>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>封闭到期日</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>-</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+   	
+   </div>
+</div>
+</body>
+</html>
