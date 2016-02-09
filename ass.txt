@@ -1,5 +1,2 @@
 learn git
-<<<<<<< HEAD
-=======
 this is done.
->>>>>>> dev
