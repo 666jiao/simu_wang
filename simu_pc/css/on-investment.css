@@ -20,6 +20,7 @@
 .color-white{color: #fff;}
 .color-shuihong{color: #bc93a5;}
 .color-anhong{color: #ff7358;}
+.color-shenhui{color: #828282;}
 
 .foz-13{font-size: 13px;}
 .foz-14{font-size: 14px;}
@@ -99,11 +100,12 @@ html,body{height: 100%;}
 }
 
 .footer{
-	height: 100px;
+	height: 60px;
 	background: #f9fafe;
-	margin-top: -100px;
+	margin-top: -60px;
 	text-align: center;
-	line-height: 100px;
+	line-height: 60px;
+	font-size: 16px;
 } 
 
 .beiyin{
@@ -222,7 +224,7 @@ html,body{height: 100%;}
 .content-li{
 	font-size: 14px;
 	width: 220px;
-	border-right: 1px dashed #9A9A9A;
+	border-right: 1px dashed #e7e7e7;
 	padding:0 10px 0 30px;
 	overflow: hidden;
 }
@@ -231,7 +233,7 @@ html,body{height: 100%;}
 	width: 1063px;
 	margin: 0 auto;
 	overflow: hidden;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 }
 
@@ -254,10 +256,14 @@ html,body{height: 100%;}
 
 .anniu-qu{
 	display: inline-block;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
 	font-size: 15px;
-	padding: 7px 15px;
+	/*padding: 7px 15px;*/
 	background-color: #3b8b8c;
-	border-radius: 2px;
+	/*border-radius: 2px;*/
 }
 
 .xiahua{
@@ -342,7 +348,7 @@ html,body{height: 100%;}
 	margin-left: 5px;
 	display:inline-block;
 	border: 5px solid transparent;
-	border-left-color: #929283;
+	border-left-color: #bc93a5;
 }
 
 
@@ -512,12 +518,12 @@ html,body{height: 100%;}
 	display: none;
 }
 
-.sidebar_ul li:hover{
+/*.sidebar_ul li:hover{
 	background-color: #EBE2EB;
-}
+}*/
 
 .fengexian{
-	border:1px solid #e7ebf6;
+	border-top:1px solid #e7ebf6;
 }
 
 .fengexian_ol{
