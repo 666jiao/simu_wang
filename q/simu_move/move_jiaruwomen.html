@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/investment-move.css">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>		
+<script type="text/javascript">
+new function(){
+   var _self = this;
+   _self.width = 640;//设置默认最大宽度
+   _self.fontSize = 100;//默认字体大小
+   _self.widthProportion = function(){
+   	var p = (document.body&&document.body.clientWidthdocument.getElementsByTagName("html")[0].offsetWidth)/_self.width;return p>1?1:p<0.5?0.5:p;};
+   _self.changePage = function(){
+       document.getElementsByTagName("html")[0].setAttribute("style","font-size:"+_self.widthProportion()*_self.fontSize+"px !important");
+   }
+   _self.changePage();
+   window.addEventListener("resize",function(){_self.changePage();},false);
+};
+console.log(this===window);
+</script>
+</head>
+<body>
+<div class="wrap body-background">
+   <div style="" class="wrap_conce">
+		<div class="clear index_top">
+			<a href="javascript:;">
+				<div class="top-left left">
+					<img src="images/app_menu1.png" alt="" width="100%" height="100%">
+				</div>
+			</a>
+			<a href="javascript:;">
+				<div class="top-right right">
+					<img src="images/app_me1.png" alt="" width="100%" height="100%">
+				</div>
+			</a>
+			<p class="index_pl">关于我们</p>
+		</div>
+
+		<!-- <div class="aboutus_baoti color-anhui">
+			<ul class="clear">
+				<li class="left aboutus_baotid"><a href="javascript:;" title="" class="color-anhui">公司简介</a></li>
+				<li class="left"><a href="javascript:;" title="" class="color-anhui">发展历程</a></li>
+				<li class="left"><a href="javascript:;" title="" class="color-anhui">投资信仰</a></li>
+				<li class="left"><a href="javascript:;" title="" class="color-anhui">投资策略</a></li>
+			</ul>
+		</div>
+		<div style="border-top: 1px solid #9A9A9A;"></div> -->
+		<div class="jiaru_tab color-hui">
+			<table class="collapse">
+				<tbody>
+					<tr>
+						<td class="w5"><a href="javascript:;" title="" class="color-hui">专业人士招聘</a>
+							<div style="border-top: 3px solid #439bf7;max-width: 3rem;margin: 20px auto 0 auto;"></div>
+						</td>
+						<td class=""><a href="javascript:;" title="" class="color-hui">校园招聘</a>
+							<div style="border-top: 3px solid #fff;max-width: 3rem;margin: 20px auto 0 auto;"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="aboutus_tone">
+			<div class="aboutus_etf pad-top-twenty pad-bottom-thirty">
+				<img src="images/zhaoxian.jpg" alt="" width="100%" height="100%">
+			</div>
+			<p class="aboutus_poned color-hui mar-bottom-ten">
+				人才及基于人才的智力成果是淡水泉投资最宝贵的资产。人才及基于人才的智力成果是淡水泉投资最宝贵的资产。人才及基于人才的智力成果是淡水泉投资最宝贵的资产。人才及基于人才的智力成果是淡水泉投资最宝贵的资产。人才及基于人才的智力成果是淡水泉投资最宝贵的资产。
+			</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">如果你:</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">-拥有对未知领域的好奇心，对投资事业充满激情</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">-对达成目标具有强烈的愿望</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">-拥有正直的品格和诚实的态度</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">淡水泉投资将为你提供:</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">-有竞争力的薪酬福利计划</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">-持续的学习及成长空间</p>
+			<p class="aboutus_poned color-hui mar-bottom-ten">欢迎加入淡水泉投资！</p>
+		</div>
+		
+   	
+   </div>
+</div>
+</body>
+</html>
