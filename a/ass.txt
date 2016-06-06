@@ -1,0 +1,15 @@
+learn git
+this is done.
+
+git checkout
+git branch
+
+git push
+
+learn git
+this is done.
+
+git checkout
+git branch
+
+git push

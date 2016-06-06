@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/investment-move.css">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>		
+<script type="text/javascript">
+new function(){
+   var _self = this;
+   _self.width = 640;//设置默认最大宽度
+   _self.fontSize = 100;//默认字体大小
+   _self.widthProportion = function(){
+   	var p = (document.body&&document.body.clientWidthdocument.getElementsByTagName("html")[0].offsetWidth)/_self.width;return p>1?1:p<0.5?0.5:p;};
+   _self.changePage = function(){
+       document.getElementsByTagName("html")[0].setAttribute("style","font-size:"+_self.widthProportion()*_self.fontSize+"px !important");
+   }
+   _self.changePage();
+   window.addEventListener("resize",function(){_self.changePage();},false);
+};
+console.log(this===window);
+
+$(document).ready(function(){
+	if($(".nv-body").height() > window.innerHeight - 100){
+		$(".section").css({"padding-bottom":"100px"});
+	}; 
+}); 
+</script>
+</head>
+<body>
+<div class="wrap body-background">
+   <div style="" class="wrap_concent">
+		<div class="clear index_top">
+			<a href="javascript:;">
+				<div class="top-left left">
+					<img src="images/app_menu.png" alt="" width="100%" height="100%">
+				</div>
+			</a>
+			<a href="javascript:;">
+				<div class="top-right right">
+					<img src="images/app_me.png" alt="" width="100%" height="100%">
+				</div>
+			</a>
+			<p class="index_p">首页</p>
+		</div>
+
+		<div class="index_middle color-white">
+			<h1 class="mar-bottom-fifty mar-top-fifty">拾贝投资</h1>
+			<h2 class="index_jxg mar-bottom-thirty">精选个股，帮您获得超额回报</h2>
+			<h2 class="index_jxg mar-bottom-fifty">值得您信任的投资顾问</h2>
+			<a href="javascript:;" title="" class="color-white index_denglu">会员登录</a>
+		</div>
+
+		<div class="index_bottom">
+			<table class="index_table">
+				<tbody>
+					<tr>
+						<td class="first-td">
+							<a href="javascript:;" title="">
+							<div class="index_botcet color-white index_botce1">
+								公司简介
+							</div>
+							</a>
+						</td>
+						<td>
+							<a href="javascript:;" title="">
+							<div class="index_botcet color-white index_botce2">
+								产品系列
+							</div>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="first-td">
+							<a href="javascript:;" title="">
+							<div class="index_botcet color-white index_botce3">
+								联系我们
+							</div>
+							</a>
+						</td>
+						<td>
+							<a href="javascript:;" title="">
+							<div class="index_botcet color-white index_botce4">
+								加入我们
+							</div>
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+   	
+   </div>
+</div>
+</body>
+</html>

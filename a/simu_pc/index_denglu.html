@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/on-investment.css">
+	<link rel="stylesheet" href="css/swiper-3.3.0.min.css">
+	<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+	<script src="js/swiper-3.3.0.jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		if($(".nv-body").height() > window.innerHeight - 60){
+			$(".section").css({"padding-bottom":"60px"});
+		};
+
+
+
+		var mySwiper = new Swiper('.swiper-container',{
+		    loop: true,
+			autoplay: 7000,
+			speed:1000,
+
+			// 如果需要前进后退按钮
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+		});
+		 
+	}); 
+	</script>
+</head>
+<body>
+<div class="section"> 
+	<div class="nv-body">
+		<div class="clear top-div">
+			<div class="system left"></div>
+			<div class="right nav-right">
+				<ul class="clear nav-ul" style="margin-right: 70px;">
+					<li class="right rel">
+						<a href="javascript:;" title="">
+							<div class="abs" style="top:8px; left:0px;">
+								<img src="images/per.jpg" alt="" class="denglu-touxiang">
+								<p class="abs denglu-ming color-anhui foz-15" style="">韩江</p>
+							</div>
+						</a>
+					</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-hui">加入我们</a></li>
+					<li class="right foz-15"><a href="javascript:;" class="color-hui">产品系列</a>|</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-hui">关于我们</a>|</li>
+					<li class="right foz-15"><a href="javascript:;" class="color-red">首页</a>|</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!-- 幻灯 -->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide blue-slide gaodu rel">
+		        	<div class="abs shuming" style="">
+						<h1 class="text-center color-white p-bottom shitou fow-no">拾贝投资</h1>
+						<h2 class="text-center color-white mar-bottom-ten shitou_er">精选个股，帮您获得超额回报</h2>
+						<h2 class="text-center color-white p-bottom shitou_er">值得您信任的投资顾问</h2>
+					</div>
+					<img src="images/pc_bg.png" alt="" width="100%" height="100%;">
+		        </div>
+    			<div class="swiper-slide red-slide gaodu rel">
+    				<div class="abs shuming" style="">
+						<h1 class="text-center color-white p-bottom shitou fow-no">拾贝投资</h1>
+						<h2 class="text-center color-white mar-bottom-ten shitou_er">精选个股，帮您获得超额回报</h2>
+						<h2 class="text-center color-white p-bottom shitou_er">值得您信任的投资顾问</h2>
+					</div>
+    				<img src="images/pc_bg.png" alt="" width="100%" height="100%;">
+    			</div>
+    			<div class="swiper-slide orange-slide gaodu rel">
+    				<div class="abs shuming" style="">
+						<h1 class="text-center color-white p-bottom shitou fow-no">拾贝投资</h1>
+						<h2 class="text-center color-white mar-bottom-ten shitou_er">精选个股，帮您获得超额回报</h2>
+						<h2 class="text-center color-white p-bottom shitou_er">值得您信任的投资顾问</h2>
+					</div>
+    				<img src="images/pc_bg.png" alt="" width="100%" height="100%;">
+    			</div>
+		    </div>
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <div class="swiper-button-prev an_bian"></div>
+		    <div class="swiper-button-next an_bian"></div>
+		</div>
+		<!-- end -->
+
+		<div class="content-introduction">
+			<ul class="clear">
+				<li class="content-li left">
+					<h2 class="introduction-two color-red">关于我们</h2>
+					<div class="content-xq">
+						<p class="color-hui">成立于2007年，是中国领先的私募证券基金管理公司之一，致力于为客户提供更加专业的理财投资服务...</p>
+					</div>
+					<a href="javascript:;" class="content-aone color-red ch_kan">查看详情</a>
+				</li>
+				<li class="content-li left">
+					<h2 class="introduction-two color-red">产品推荐</h2>
+					<div class="content-xq">
+						<p class="color-hui">精选投资产品系列是十分适合广大投资者的一个产品集合。</p>
+					</div>
+					<a href="javascript:;" class="content-aone color-red ch_kan">查看更多</a>
+				</li>
+				<li class="content-li left">
+					<h2 class="introduction-two color-red">加入我们</h2>
+					<div class="content-xq">
+						<p class="color-hui">人才及基于人才的智力成果是我们投资最宝贵的资产，在这里，我们的目标是努力培养...</p>
+					</div>
+					<a href="javascript:;" class="content-aone color-red ch_kan">查看详情</a>
+				</li>
+				<li class="content-li left" style="border-right: 0;">
+					<h2 class="introduction-two color-red pad-left-ten">联系我们</h2>
+					<div class="content-xq">
+						<p class="color-hui pad-left-thirty bei_yi">北京西城区金融大街9号金融街中心B座19层</p>
+						<p class="con-lxf color-hui pad-left-thirty bei_er">400-818-7776</p>
+						<p class="con-lxf color-hui pad-left-thirty bei_san">client@service.com</p>
+					</div>
+					<div class="mar-left-ten">
+						<a href="javascript:;" class="content-aone color-red ch_kan">查看详情</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</div> 
+<div class="footer">
+	<p class="color-anhui">©2014,淡水泉(北京)投资管理有限公司 客服热线：400-818-7776 京公网安备110102001447 京ICP备07031271号-1 </p>
+</div>
+</body>
+</html>
