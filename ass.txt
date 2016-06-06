@@ -5,3 +5,9 @@ git checkout
 git branch
 
 git push
+
+learn git
+
+git push
+
+learn git
